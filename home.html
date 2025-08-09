@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Chinmay R Gejji — Portfolio</title>
+  <meta name="description" content="Portfolio of Chinmay R Gejji — Computer Science Graduate | Java | Web Dev | JDBC | JSP" />
+  <meta name="keywords" content="Chinmay Gejji, Java Developer, Full-stack Developer, JDBC, JSP, Portfolio" />
+  <meta name="author" content="Chinmay R Gejji" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+  <!-- Open Graph for social -->
+  <meta property="og:title" content="Chinmay R Gejji — Portfolio" />
+  <meta property="og:description" content="Computer Science Graduate | Java | Web Dev | JDBC | JSP" />
+  <meta property="og:image" content="profilepic.JPG" />
+  <meta property="og:url" content="YOUR_PORTFOLIO_URL" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+
+  <!-- FontAwesome CDN for icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-pM8hZ2Daax+82v0o+YnGsyutVb9ph4Lh7mYq9LVpjldQVHg5wZw6+p6rVFaxu2RvqQVrVaC3+kU+7zrri1x5+w=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Intro Animation Overlay -->
+  <div id="intro-overlay" role="dialog" aria-modal="true" aria-label="Intro animation displaying name">
+    <h1 id="intro-text">Chinmay R Gejji</h1>
+  </div>
+
+  <div class="container">
+    <!-- Header -->
+    <header>
+      <nav>
+        <div class="brand"><i class="fas fa-laptop-code" aria-hidden="true"></i> Chinmay R Gejji</div>
+        <div class="navlinks" id="navMenu" role="menubar" aria-label="Primary navigation">
+          <a href="#about" role="menuitem" tabindex="0">About</a>
+          <a href="#projects" role="menuitem" tabindex="0">Projects</a>
+          <a href="#skills" role="menuitem" tabindex="0">Skills</a>
+          <a href="#achievements" role="menuitem" tabindex="0">Achievements</a>
+          <a href="#contact" role="menuitem" tabindex="0">Contact</a>
+        </div>
+        <div class="mobile-menu">
+          <button class="btn-primary" id="menuToggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navMenu">
+            <i class="fas fa-bars" aria-hidden="true"></i> Menu
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero" aria-label="Introduction and contact">
+      <div class="profile-pic-container" tabindex="0" aria-label="Profile picture of Chinmay R Gejji">
+        <img src="profilepic.JPG" alt="Photo of Chinmay R Gejji" width="240" height="240" loading="lazy" />
+      </div>
+      <div class="hero-card" aria-labelledby="hero-title">
+        <p id="hero-title" class="title">
+          Hi, I’m <span style="color: var(--accent)">Chinmay R Gejji</span>
+        </p>
+        <p class="subtitle">
+          Computer Science graduate crafting web apps, robust Java backends, and scalable solutions. Seeking <strong>Frontend / Full-stack Developer</strong> roles, ready to join immediately.
+        </p>
+        <div class="quick-links">
+          <a class="chip" href="Primary Resume.pdf" download><i class="fas fa-file-download" aria-hidden="true"></i> Resume (Primary)</a>
+          <a class="chip" href="Secondary Resume.pdf" download><i class="fas fa-file-download" aria-hidden="true"></i> Resume (Secondary)</a>
+          <a class="chip" href="https://github.com/chinmayrgejji" target="_blank" title="View GitHub Profile" rel="noopener"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>
+          <a class="chip" href="https://www.linkedin.com/in/chinmay-r-gejji-618944378/" target="_blank" title="View LinkedIn Profile" rel="noopener"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a>
+        </div>
+      </div>
+      <aside class="hero-card" aria-label="Contact details">
+        <h3>Contact</h3>
+        <p><strong><i class="fas fa-envelope"></i> Email:</strong> <a href="mailto:chinmayrgejji733@gmail.com">chinmayrgejji733@gmail.com</a></p>
+        <p><strong><i class="fas fa-phone"></i> Phone:</strong> +91 9148658197</p>
+        <p><strong><i class="fas fa-map-marker-alt"></i> Location:</strong> Harihar, India</p>
+        <p><strong><i class="fas fa-briefcase"></i> Current Role:</strong> Java Full Stack Intern — Pentagon Space (Mar 2025 - Present)</p>
+      </aside>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about">
+      <div class="bio hero-card">
+        <h2>About Me</h2>
+        <p>
+          B.E. (Computer Science & Engineering), G M Institute of Technology (Class of 2025). I build intuitive user interfaces, scalable backends, and have led projects in blockchain and web app domains.
+        </p>
+        <h3>Core Strengths</h3>
+        <ul style="color: var(--muted);">
+          <li><i class="fas fa-users"></i> Leadership & teamwork — led blockchain evidence management project</li>
+          <li><i class="fas fa-comment-dots"></i> Strong communication — national-level competition winner</li>
+          <li><i class="fas fa-lightbulb"></i> Problem-solving — programming contests & hackathons</li>
+        </ul>
+      </div>
+
+      <aside class="stats" aria-label="Academic and skills statistics and education">
+        <div class="stat"><i class="fas fa-graduation-cap"></i> 7.80 CGPA</div>
+        <div style="color: var(--muted);">GMIT</div>
+        <div class="stat" style="margin-top: 10px;"><i class="fas fa-briefcase"></i> 3 Internships</div>
+        <div style="color: var(--muted); margin-bottom: 15px;">Pentagon Space, Technologics Global, Sirintel</div>
+
+        <h3>Education</h3>
+        <ul>
+          <li><strong>B.E. (Computer Science & Engineering)</strong><br />GM Institute of Technology, Davangere<br />Expected Graduation: 2025, CGPA: 7.80</li>
+          <li><strong>Class XII / Pre-University</strong><br />Sri Siddaganga PU College, Davangere<br />2021, Percentage: 82.33%</li>
+          <li><strong>Class X / SSLC</strong><br />MKET's LKEM School, Harihar<br />2019, Percentage: 75%</li>
+        </ul>
+      </aside>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects">
+        <div class="project" tabindex="0">
+          <div class="proj-meta">
+            <p class="proj-title"><i class="fas fa-cubes"></i> Blockchain Based Evidence Management System</p>
+            <p class="tech">Ganache, Truffle, Node.js, IPFS, HTML, CSS, Python, Flask</p>
+            <p style="color: var(--muted);">Led development of a blockchain & IPFS based evidence tracking system.</p>
+          </div>
+          <div class="proj-links">
+            <a
+              href="https://github.com/chinmayrgejji/Blockchain_Based_Evidence_Management_System.git"
+              target="_blank"
+              title="View Blockchain Based Evidence Management System repository on GitHub"
+              rel="noopener"
+              ><i class="fab fa-github"></i> Repo</a
+            >
+          </div>
+        </div>
+        <div class="project" tabindex="0">
+          <div class="proj-meta">
+            <p class="proj-title"><i class="fas fa-brain"></i> Pneumonia Detection using Machine Learning</p>
+            <p class="tech">Python, TensorFlow, Keras, Inception V3, Pandas, NumPy</p>
+            <p style="color: var(--muted);">Built & presented ML tool to detect pneumonia from X-ray images.</p>
+          </div>
+          <div class="proj-links">
+            <a
+              href="https://github.com/chinmayrgejji/pneumonia-ml-tool"
+              target="_blank"
+              title="View Pneumonia Detection Machine Learning repository on GitHub"
+              rel="noopener"
+              >
+              <!-- <i class="fab fa-github"></i> Repo--></a> 
+          </div>
+        </div>
+        <div class="project" tabindex="0">
+          <div class="proj-meta">
+            <p class="proj-title"><i class="fas fa-lock"></i> Encryption & Decryption GUI</p>
+            <p class="tech">Python, Tkinter</p>
+            <p style="color: var(--muted);">GUI app for encrypting and decrypting text/files for demo purposes.</p>
+          </div>
+          <div class="proj-links">
+            <a
+              href="https://github.com/chinmayrgejji/encrypt-gui"
+              target="_blank"
+              title="View Encryption and Decryption GUI repository on GitHub"
+              rel="noopener"
+              >
+              <!-- <i class="fab fa-github"></i> Repo --></a> 
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skills">
+        <div class="skills-group">
+          <strong>Languages:</strong>
+          <span class="skill">Java</span>
+          <span class="skill">Python</span>
+          <span class="skill">JavaScript</span>
+        </div>
+        <div class="skills-group">
+          <strong>Frameworks:</strong>
+          <span class="skill">Flask</span>
+          <span class="skill">J2EE</span>
+        </div>
+        <div class="skills-group">
+          <strong>Tools:</strong>
+          <span class="skill">HTML</span>
+          <span class="skill">CSS</span>
+          <span class="skill">JDBC</span>
+          <span class="skill">JSP</span>
+        </div>
+        <div class="skills-group">
+          <strong>Soft Skills:</strong>
+          <span class="skill">Presentation Skills</span>
+          <span class="skill">Team Leadership</span>
+          <span class="skill">Communication Skills</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Achievements -->
+    <section id="achievements">
+      <h2>Achievements & Certifications</h2>
+      <div class="timeline" aria-label="List of achievements and certifications">
+        <div class="item">
+          <div class="when">Feb 2024</div>
+          <div class="what"><strong>1st Place:</strong> Hands On Minds On — National Science Day Exhibit, GMIT</div>
+        </div>
+        <div class="item">
+          <div class="when">Oct 2022</div>
+          <div class="what"><strong>Best Coder & Best GUI Creator:</strong> Sirintel Internship</div>
+        </div>
+        <div class="item">
+          <div class="when">2023</div>
+          <div class="what"><strong>Finalist & Top Qualifier:</strong> Bits N Bytes, Sukalpa, C-Quest 2.0</div>
+        </div>
+        <div class="item">
+          <div class="when">Jun 2023</div>
+          <div class="what"><strong>1st Place:</strong> SELL-A-THON EMERGE-2023 — Jain Institute of Technology</div>
+        </div>
+        <div class="item">
+          <div class="when">Jul–Oct 2023</div>
+          <div class="what"><strong>NPTEL Certification:</strong> Programming in Java — IIT Kharagpur</div>
+        </div>
+        <div class="item">
+          <div class="when">Feb 2024</div>
+          <div class="what"><strong>Winner:</strong> Viksit Bharat @2047, Yuva Samvad</div>
+        </div>
+        <div class="item">
+          <div class="when">2024</div>
+          <div class="what"><strong>NPTEL Certifications:</strong> Python, Python for Data Science (Silver), Computer Graphics, Software Engineering</div>
+        </div>
+        <div class="item">
+          <div class="when">2024-25</div>
+          <div class="what"><strong>Forum Coordinator:</strong> Led multiple department events</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact" aria-label="Contact form and quick contacts">
+      <div class="hero-card">
+        <h2>Contact me</h2>
+        <p style="color: var(--muted)">Available for interviews and collaborations — drop me a message!</p>
+        <form id="contactForm" aria-label="Contact form">
+          <input type="text" name="name" placeholder="Your name" aria-label="Your name" required />
+          <input type="email" name="email" placeholder="Your email" aria-label="Your email" required />
+          <textarea name="message" rows="5" placeholder="Message" aria-label="Message" required></textarea>
+          <button class="send" type="submit" aria-label="Send message">Send message</button>
+        </form>
+      </div>
+      <aside class="hero-card" aria-label="Quick contacts">
+        <h3>Quick contacts</h3>
+        <p>
+          <strong><i class="fas fa-envelope"></i> Email:</strong>
+          <a href="mailto:chinmayrgejji733@gmail.com">chinmayrgejji733@gmail.com</a>
+        </p>
+        <p>
+          <strong><i class="fas fa-phone"></i> Phone:</strong> +91 9148658197
+        </p>
+        <p>
+          <strong><i class="fab fa-github"></i> GitHub:</strong>
+          <a href="https://github.com/chinmayrgejji" target="_blank" rel="noopener">github.com/chinmayrgejji</a>
+        </p>
+        <p>
+          <strong><i class="fab fa-linkedin"></i> LinkedIn:</strong>
+          <a href="https://www.linkedin.com/in/chinmay-r-gejji-618944378/" target="_blank" rel="noopener">linkedin.com/in/chinmay-r-gejji-618944378</a>
+        </p>
+      </aside>
+    </section>
+
+    <footer>
+      © 2025 Chinmay R Gejji — All rights reserved
+      <small>Last updated: August 2025</small>
+    </footer>
+  </div>
+
+<script src="script.js" defer></script>
+</body>
+</html>
